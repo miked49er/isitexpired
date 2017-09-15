@@ -1,0 +1,20 @@
+{
+  "name": "isitexpired",
+  "version": "0.0.0",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Mike Deiters",
+      "email": "mike@deiters.me",
+      "url": "www.deiters.me"
+    }
+  ],
+  "license": "Creative Commons",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "phantomjs": "^2.1.7"
+  }
+}
