@@ -1,23 +1,228 @@
-<div class="tabs stacked">
-	<style>
-		.month {
-			margin: 20px auto;
-		}
-	</style>
+<div style="height: calc(100vh - 116px); overflow-y:scroll;">
+	<div class="tabs stacked">
+		<style>
+			.month {
+				margin: 20px auto;
+			}
+		</style>
 
-	<input type="checkbox" id="grizzly" aria-hidden="true">
-	<label style="text-align:center" for="grizzly" aria-hidden="true">Kodiak | Cougar | Hawken | Grizzly</label>
-	<div style="align-items:center">
-		<div class="inline-block">
-			<h2>Kodiak | Cougar | Hawken | Grizzly</h2>
-			<mark class="inline-block">Product Expires 5 Months After Manufacture's Code Date</mark>
+		<input type="checkbox" id="grizzly" aria-hidden="true">
+		<label style="text-align:center" for="grizzly" aria-hidden="true">Kodiak | Cougar | Hawken | Grizzly</label>
+		<div style="align-items:center">
+			<div class="inline-block">
+				<h2>Kodiak | Cougar | Hawken | Grizzly</h2>
+				<mark class="inline-block">Product Expires 5 Months After Manufacture's Code Date</mark>
+				<p><strong>Location:</strong> Bottom of can</p>
+				<p><strong>Second to last character:</strong> Month manufactured</p>
+				<p><strong>Last character:</strong> Year manufactured</p>
+				<p><strong>Example:</strong> T006428A7 = January 2017</p>
+			</div>
+
+			<div id="grizzly-table" class="row">
+
+				<table class="preset month">
+					<thead>
+						<tr>
+							<th>Month</th>
+							<th>Code to Pull</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Jan - 17</td>
+							<td>H6</td>
+						</tr>
+						<tr>
+							<td>Feb - 17</td>
+							<td>J6</td>
+						</tr>
+						<tr>
+							<td>Mar - 17</td>
+							<td>K6</td>
+						</tr>
+						<tr>
+							<td>Apr - 17</td>
+							<td>L6</td>
+						</tr>
+						<tr>
+							<td>May - 17</td>
+							<td>M6</td>
+						</tr>
+						<tr>
+							<td>Jun - 17</td>
+							<td>A7</td>
+						</tr>
+						<tr>
+							<td>Jul - 17</td>
+							<td>B7</td>
+						</tr>
+						<tr>
+							<td>Aug - 17</td>
+							<td>C7</td>
+						</tr>
+						<tr>
+							<td>Sep - 17</td>
+							<td>D7</td>
+						</tr>
+						<tr>
+							<td>Oct - 17</td>
+							<td>E7</td>
+						</tr>
+						<tr>
+							<td>Nov - 17</td>
+							<td>F7</td>
+						</tr>
+						<tr>
+							<td>Dec - 17</td>
+							<td>G7</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<input type="checkbox" id="camel" aria-hidden="true">
+		<label style="text-align:center" for="camel" aria-hidden="true">CAMEL SNUS | VUSE</label>
+		<div>
+			<h2>CAMEL SNUS | VUSE</h2>
+			<mark class="inline-block">Expires 12 Months After Manufacturing Code Date</mark>
 			<p><strong>Location:</strong> Bottom of can</p>
 			<p><strong>Second to last character:</strong> Month manufactured</p>
 			<p><strong>Last character:</strong> Year manufactured</p>
-			<p><strong>Example:</strong> T006428A7 = January 2017</p>
+			<p><strong>Example:</strong> R001AAA7 = January 2017</p>
+
+			<div class="row">
+				<table class="preset month">
+					<thead>
+						<tr>
+							<th>Month</th>
+							<th>Code</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Jan</td>
+							<td>A</td>
+						</tr>
+						<tr>
+							<td>Feb</td>
+							<td>B</td>
+						</tr>
+						<tr>
+							<td>Mar</td>
+							<td>C</td>
+						</tr>
+						<tr>
+							<td>Apr</td>
+							<td>D</td>
+						</tr>
+						<tr>
+							<td>May</td>
+							<td>E</td>
+						</tr>
+						<tr>
+							<td>Jun</td>
+							<td>F</td>
+						</tr>
+						<tr>
+							<td>Jul</td>
+							<td>G</td>
+						</tr>
+						<tr>
+							<td>Aug</td>
+							<td>H</td>
+						</tr>
+						<tr>
+							<td>Sep</td>
+							<td>J</td>
+						</tr>
+						<tr>
+							<td>Oct</td>
+							<td>K</td>
+						</tr>
+						<tr>
+							<td>Nov</td>
+							<td>L</td>
+						</tr>
+						<tr>
+							<td>Dec</td>
+							<td>M</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="preset month">
+					<thead>
+						<tr>
+							<th>Month</th>
+							<th>Code to Pull</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Jan - 17</td>
+							<td>A6</td>
+						</tr>
+						<tr>
+							<td>Feb - 17</td>
+							<td>B6</td>
+						</tr>
+						<tr>
+							<td>Mar - 17</td>
+							<td>C6</td>
+						</tr>
+						<tr>
+							<td>Apr - 17</td>
+							<td>D6</td>
+						</tr>
+						<tr>
+							<td>May - 17</td>
+							<td>E6</td>
+						</tr>
+						<tr>
+							<td>Jun - 17</td>
+							<td>F6</td>
+						</tr>
+						<tr>
+							<td>Jul - 17</td>
+							<td>G6</td>
+						</tr>
+						<tr>
+							<td>Aug - 17</td>
+							<td>H6</td>
+						</tr>
+						<tr>
+							<td>Sep - 17</td>
+							<td>J6</td>
+						</tr>
+						<tr>
+							<td>Oct - 17</td>
+							<td>K6</td>
+						</tr>
+						<tr>
+							<td>Nov - 17</td>
+							<td>L6</td>
+						</tr>
+						<tr>
+							<td>Dec - 17</td>
+							<td>M6</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 
-		<div class="row">
+		<input type="checkbox" id="longhorn" aria-hidden="true">
+		<label style="text-align:center" for="longhorn" aria-hidden="true">Timber Wolf | Longhorn</label>
+		<div>
+			<h2>Timber Wolf | Longhorn</h2>
+			<mark class="inline-block">Expiration Date on Product</mark>
+			<p><strong>Location:</strong> Bottom of can</p>
+			<p><strong>First character:</strong> Month</p>
+			<p><strong>Second and Third character:</strong> Day</p>
+			<p><strong>Last character:</strong> Year</p>
+			<p><strong>Example:</strong> A017C0928 = Jan 1, 2017</p>
+
 			<table class="preset month">
 				<thead>
 					<tr>
@@ -60,95 +265,43 @@
 					</tr>
 					<tr>
 						<td>Sep</td>
-						<td>J</td>
+						<td>I</td>
 					</tr>
 					<tr>
 						<td>Oct</td>
-						<td>K</td>
+						<td>J</td>
 					</tr>
 					<tr>
 						<td>Nov</td>
-						<td>L</td>
+						<td>K</td>
 					</tr>
 					<tr>
 						<td>Dec</td>
-						<td>M</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<table class="preset month">
-				<thead>
-					<tr>
-						<th>Month</th>
-						<th>Code to Pull</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Jan - 17</td>
-						<td>H6</td>
-					</tr>
-					<tr>
-						<td>Feb - 17</td>
-						<td>J6</td>
-					</tr>
-					<tr>
-						<td>Mar - 17</td>
-						<td>K6</td>
-					</tr>
-					<tr>
-						<td>Apr - 17</td>
-						<td>L6</td>
-					</tr>
-					<tr>
-						<td>May - 17</td>
-						<td>M6</td>
-					</tr>
-					<tr>
-						<td>Jun - 17</td>
-						<td>A7</td>
-					</tr>
-					<tr>
-						<td>Jul - 17</td>
-						<td>B7</td>
-					</tr>
-					<tr>
-						<td>Aug - 17</td>
-						<td>C7</td>
-					</tr>
-					<tr>
-						<td>Sep - 17</td>
-						<td>D7</td>
-					</tr>
-					<tr>
-						<td>Oct - 17</td>
-						<td>E7</td>
-					</tr>
-					<tr>
-						<td>Nov - 17</td>
-						<td>F7</td>
-					</tr>
-					<tr>
-						<td>Dec - 17</td>
-						<td>G7</td>
+						<td>L</td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
-	</div>
 
-	<input type="checkbox" id="camel" aria-hidden="true">
-	<label style="text-align:center" for="camel" aria-hidden="true">CAMEL SNUS | VUSE</label>
-	<div>
-		<h2>CAMEL SNUS | VUSE</h2>
-		<mark class="inline-block">Expires 12 Months After Manufacturing Code Date</mark>
-		<p><strong>Location:</strong> Bottom of can</p>
-		<p><strong>Second to last character:</strong> Month manufactured</p>
-		<p><strong>Last character:</strong> Year manufactured</p>
-		<p><strong>Example:</strong> R001AAA7 = January 2017</p>
+		<input type="checkbox" id="skoal" aria-hidden="true">
+		<label style="text-align:center" for="skoal" aria-hidden="true">Copenhagen | Skoal</label>
+		<div>
+			<h2>Copenhagen | Skoal</h2>
+			<mark class="inline-block">Expiration Date on Product</mark>
+			<p><strong>Location:</strong> Back of Can</p>
+			<p><strong>Example:</strong> Jan 01 2017</p>
+		</div>
 
-		<div class="row">
+		<input type="checkbox" id="rj-reynolds">
+		<label for="rj-reynolds" style="text-align:center">RJ Reynolds</label>
+		<div>
+			<h2>RJ Reynolds</h2>
+			<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
+			<p><strong>Location:</strong> Bottom of Box</p>
+			<p><strong>Character:</strong> Month</p>
+			<p><strong>Digit:</strong> Year</p>
+			<p><strong>Example:</strong> C7 = March 2017</p>
+
 			<table class="preset month">
 				<thead>
 					<tr>
@@ -191,548 +344,400 @@
 					</tr>
 					<tr>
 						<td>Sep</td>
-						<td>J</td>
+						<td>I</td>
 					</tr>
 					<tr>
 						<td>Oct</td>
-						<td>K</td>
+						<td>J</td>
 					</tr>
 					<tr>
 						<td>Nov</td>
-						<td>L</td>
+						<td>K</td>
 					</tr>
 					<tr>
 						<td>Dec</td>
-						<td>M</td>
+						<td>L</td>
 					</tr>
 				</tbody>
 			</table>
+		</div>
+
+		<input type="checkbox" id="phillip-morris">
+		<label for="phillip-morris" style="text-align:center">Phillip Morris</label>
+		<div>
+			<h2>Phillip Morris</h2>
+			<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
+			<p><strong>Location:</strong> Bottom of Box</p>
+			<p><strong>First Three Numbers:</strong> Julian Date manufactured</p>
+			<p><strong>Fourth Number:</strong> Year manufactured</p>
+			<p><strong>Example: </strong> V094Z741A1 = April 2017</p>
 
 			<table class="preset month">
 				<thead>
 					<tr>
 						<th>Month</th>
-						<th>Code to Pull</th>
+						<th>Julian Date Range</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>Jan - 17</td>
-						<td>A6</td>
+						<td>Jan</td>
+						<td>001 - 031</td>
 					</tr>
 					<tr>
-						<td>Feb - 17</td>
-						<td>B6</td>
+						<td>Feb</td>
+						<td>032 - 059</td>
 					</tr>
 					<tr>
-						<td>Mar - 17</td>
-						<td>C6</td>
+						<td>Mar</td>
+						<td>060 - 090</td>
 					</tr>
 					<tr>
-						<td>Apr - 17</td>
-						<td>D6</td>
+						<td>Apr</td>
+						<td>091 - 120</td>
 					</tr>
 					<tr>
-						<td>May - 17</td>
-						<td>E6</td>
+						<td>May</td>
+						<td>121 - 151</td>
 					</tr>
 					<tr>
-						<td>Jun - 17</td>
-						<td>F6</td>
+						<td>Jun</td>
+						<td>152 - 181</td>
 					</tr>
 					<tr>
-						<td>Jul - 17</td>
-						<td>G6</td>
+						<td>Jul</td>
+						<td>182 - 212</td>
 					</tr>
 					<tr>
-						<td>Aug - 17</td>
-						<td>H6</td>
+						<td>Aug</td>
+						<td>213 - 243</td>
 					</tr>
 					<tr>
-						<td>Sep - 17</td>
-						<td>J6</td>
+						<td>Sep</td>
+						<td>244 - 273</td>
 					</tr>
 					<tr>
-						<td>Oct - 17</td>
-						<td>K6</td>
+						<td>Oct</td>
+						<td>274 - 304</td>
 					</tr>
 					<tr>
-						<td>Nov - 17</td>
-						<td>L6</td>
+						<td>Nov</td>
+						<td>305 - 334</td>
 					</tr>
 					<tr>
-						<td>Dec - 17</td>
-						<td>M6</td>
+						<td>Dec</td>
+						<td>335 - 365</td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
-	</div>
 
-	<input type="checkbox" id="longhorn" aria-hidden="true">
-	<label style="text-align:center" for="longhorn" aria-hidden="true">Timber Wolf | Longhorn</label>
-	<div>
-		<h2>Timber Wolf | Longhorn</h2>
-		<mark class="inline-block">Expiration Date on Product</mark>
-		<p><strong>Location:</strong> Bottom of can</p>
-		<p><strong>First character:</strong> Month</p>
-		<p><strong>Second and Third character:</strong> Day</p>
-		<p><strong>Last character:</strong> Year</p>
-		<p><strong>Example:</strong> A017C0928 = Jan 1, 2017</p>
+		<input type="checkbox" id="santa-fe-tobacco">
+		<label for="santa-fe-tobacco" style="text-align:center">Santa Fe Tobacco</label>
+		<div>
+			<h2>Santa Fe Tobacco</h2>
+			<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
+			<p><strong>Location:</strong> Bottom of Box</p>
+			<p><strong>First Three Numbers:</strong> Julian Date manufactured</p>
+			<p><strong>Next Two Number:</strong> Year manufactured</p>
+			<p><strong>Example:</strong> 0691744 = March 2017</p>
 
-		<table class="preset month">
-			<thead>
-				<tr>
-					<th>Month</th>
-					<th>Code</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Jan</td>
-					<td>A</td>
-				</tr>
-				<tr>
-					<td>Feb</td>
-					<td>B</td>
-				</tr>
-				<tr>
-					<td>Mar</td>
-					<td>C</td>
-				</tr>
-				<tr>
-					<td>Apr</td>
-					<td>D</td>
-				</tr>
-				<tr>
-					<td>May</td>
-					<td>E</td>
-				</tr>
-				<tr>
-					<td>Jun</td>
-					<td>F</td>
-				</tr>
-				<tr>
-					<td>Jul</td>
-					<td>G</td>
-				</tr>
-				<tr>
-					<td>Aug</td>
-					<td>H</td>
-				</tr>
-				<tr>
-					<td>Sep</td>
-					<td>I</td>
-				</tr>
-				<tr>
-					<td>Oct</td>
-					<td>J</td>
-				</tr>
-				<tr>
-					<td>Nov</td>
-					<td>K</td>
-				</tr>
-				<tr>
-					<td>Dec</td>
-					<td>L</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+			<table class="preset month">
+				<thead>
+					<tr>
+						<th>Month</th>
+						<th>Julian Date Range</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Jan</td>
+						<td>001 - 031</td>
+					</tr>
+					<tr>
+						<td>Feb</td>
+						<td>032 - 059</td>
+					</tr>
+					<tr>
+						<td>Mar</td>
+						<td>060 - 090</td>
+					</tr>
+					<tr>
+						<td>Apr</td>
+						<td>091 - 120</td>
+					</tr>
+					<tr>
+						<td>May</td>
+						<td>121 - 151</td>
+					</tr>
+					<tr>
+						<td>Jun</td>
+						<td>152 - 181</td>
+					</tr>
+					<tr>
+						<td>Jul</td>
+						<td>182 - 212</td>
+					</tr>
+					<tr>
+						<td>Aug</td>
+						<td>213 - 243</td>
+					</tr>
+					<tr>
+						<td>Sep</td>
+						<td>244 - 273</td>
+					</tr>
+					<tr>
+						<td>Oct</td>
+						<td>274 - 304</td>
+					</tr>
+					<tr>
+						<td>Nov</td>
+						<td>305 - 334</td>
+					</tr>
+					<tr>
+						<td>Dec</td>
+						<td>335 - 365</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
-	<input type="checkbox" id="skoal" aria-hidden="true">
-	<label style="text-align:center" for="skoal" aria-hidden="true">Copenhagen | Skoal</label>
-	<div>
-		<h2>Copenhagen | Skoal</h2>
-		<mark class="inline-block">Expiration Date on Product</mark>
-		<p><strong>Location:</strong> Back of Can</p>
-		<p><strong>Example:</strong> Jan 01 2017</p>
-	</div>
+		<input type="checkbox" id="lorillard" aria-hidden="true">
+		<label style="text-align:center" for="lorillard" aria-hidden="true">Lorillard</label>
+		<div>
+			<h2>Lorillard</h2>
+			<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
+			<p><strong>Location:</strong> Bottom of Box</p>
+			<p><strong>First character:</strong> Year</p>
+			<p><strong>Second character:</strong> Month</p>
+			<p><strong>Example:</strong> 7C1054019 = March 2017</p>
 
-	<input type="checkbox" id="rj-reynolds">
-	<label for="rj-reynolds" style="text-align:center">RJ Reynolds</label>
-	<div>
-		<h2>RJ Reynolds</h2>
-		<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
-		<p><strong>Location:</strong> Bottom of Box</p>
-		<p><strong>Character:</strong> Month</p>
-		<p><strong>Digit:</strong> Year</p>
-		<p><strong>Example:</strong> C7 = March 2017</p>
+			<table class="preset month">
+				<thead>
+					<tr>
+						<th>Month</th>
+						<th>Code</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Jan</td>
+						<td>B</td>
+					</tr>
+					<tr>
+						<td>Feb</td>
+						<td>L</td>
+					</tr>
+					<tr>
+						<td>Mar</td>
+						<td>A</td>
+					</tr>
+					<tr>
+						<td>Apr</td>
+						<td>C</td>
+					</tr>
+					<tr>
+						<td>May</td>
+						<td>K</td>
+					</tr>
+					<tr>
+						<td>Jun</td>
+						<td>O</td>
+					</tr>
+					<tr>
+						<td>Jul</td>
+						<td>R</td>
+					</tr>
+					<tr>
+						<td>Aug</td>
+						<td>W</td>
+					</tr>
+					<tr>
+						<td>Sep</td>
+						<td>H</td>
+					</tr>
+					<tr>
+						<td>Oct</td>
+						<td>I</td>
+					</tr>
+					<tr>
+						<td>Nov</td>
+						<td>T</td>
+					</tr>
+					<tr>
+						<td>Dec</td>
+						<td>E</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
-		<table class="preset month">
-			<thead>
-				<tr>
-					<th>Month</th>
-					<th>Code</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Jan</td>
-					<td>A</td>
-				</tr>
-				<tr>
-					<td>Feb</td>
-					<td>B</td>
-				</tr>
-				<tr>
-					<td>Mar</td>
-					<td>C</td>
-				</tr>
-				<tr>
-					<td>Apr</td>
-					<td>D</td>
-				</tr>
-				<tr>
-					<td>May</td>
-					<td>E</td>
-				</tr>
-				<tr>
-					<td>Jun</td>
-					<td>F</td>
-				</tr>
-				<tr>
-					<td>Jul</td>
-					<td>G</td>
-				</tr>
-				<tr>
-					<td>Aug</td>
-					<td>H</td>
-				</tr>
-				<tr>
-					<td>Sep</td>
-					<td>I</td>
-				</tr>
-				<tr>
-					<td>Oct</td>
-					<td>J</td>
-				</tr>
-				<tr>
-					<td>Nov</td>
-					<td>K</td>
-				</tr>
-				<tr>
-					<td>Dec</td>
-					<td>L</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+		<input type="checkbox" id="commonwealth" aria-hidden="true">
+		<label style="text-align:center" for="commonwealth" aria-hidden="true">Commonwealth</label>
+		<div>
+			<h2>Commonwealth</h2>
+			<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
+			<p><strong>Location:</strong> Bottom of Box</p>
+			<p><strong>First character:</strong> Year</p>
+			<p><strong>Second character:</strong> Month</p>
+			<p><strong>Next Two Characters:</strong> Calendar Date</p>
+			<p><strong>Example:</strong> 7C22XOX1530 = March 22, 2017</p>
 
-	<input type="checkbox" id="phillip-morris">
-	<label for="phillip-morris" style="text-align:center">Phillip Morris</label>
-	<div>
-		<h2>Phillip Morris</h2>
-		<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
-		<p><strong>Location:</strong> Bottom of Box</p>
-		<p><strong>First Three Numbers:</strong> Julian Date manufactured</p>
-		<p><strong>Fourth Number:</strong> Year manufactured</p>
-		<p><strong>Example: </strong> V094Z741A1 = April 2017</p>
+			<table class="preset month">
+				<thead>
+					<tr>
+						<th>Month</th>
+						<th>Code</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Jan</td>
+						<td>A</td>
+					</tr>
+					<tr>
+						<td>Feb</td>
+						<td>B</td>
+					</tr>
+					<tr>
+						<td>Mar</td>
+						<td>C</td>
+					</tr>
+					<tr>
+						<td>Apr</td>
+						<td>D</td>
+					</tr>
+					<tr>
+						<td>May</td>
+						<td>E</td>
+					</tr>
+					<tr>
+						<td>Jun</td>
+						<td>F</td>
+					</tr>
+					<tr>
+						<td>Jul</td>
+						<td>G</td>
+					</tr>
+					<tr>
+						<td>Aug</td>
+						<td>H</td>
+					</tr>
+					<tr>
+						<td>Sep</td>
+						<td>I</td>
+					</tr>
+					<tr>
+						<td>Oct</td>
+						<td>J</td>
+					</tr>
+					<tr>
+						<td>Nov</td>
+						<td>K</td>
+					</tr>
+					<tr>
+						<td>Dec</td>
+						<td>L</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
-		<table class="preset month">
-			<thead>
-				<tr>
-					<th>Month</th>
-					<th>Julian Date Range</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Jan</td>
-					<td>001 - 031</td>
-				</tr>
-				<tr>
-					<td>Feb</td>
-					<td>032 - 059</td>
-				</tr>
-				<tr>
-					<td>Mar</td>
-					<td>060 - 090</td>
-				</tr>
-				<tr>
-					<td>Apr</td>
-					<td>091 - 120</td>
-				</tr>
-				<tr>
-					<td>May</td>
-					<td>121 - 151</td>
-				</tr>
-				<tr>
-					<td>Jun</td>
-					<td>152 - 181</td>
-				</tr>
-				<tr>
-					<td>Jul</td>
-					<td>182 - 212</td>
-				</tr>
-				<tr>
-					<td>Aug</td>
-					<td>213 - 243</td>
-				</tr>
-				<tr>
-					<td>Sep</td>
-					<td>244 - 273</td>
-				</tr>
-				<tr>
-					<td>Oct</td>
-					<td>274 - 304</td>
-				</tr>
-				<tr>
-					<td>Nov</td>
-					<td>305 - 334</td>
-				</tr>
-				<tr>
-					<td>Dec</td>
-					<td>335 - 365</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+		<input type="checkbox" id="liggett-printed">
+		<label for="liggett-printed" style="text-align:center">Liggett (Printed Codes)</label>
+		<div>
+			<h2>Liggett (Printed Codes)</h2>
+			<mark class="inline-block">Epires 12 Months After Manufactured Date Code</mark>
+			<p><strong>Location:</strong> Bottom of Box</p>
+			<p><strong>Second and Third Digits:</strong> Year</p>
+			<p><strong>Next Two Digits:</strong> Week</p>
+			<p><strong>Example:</strong> W1708010222 = February 2017</p>
 
-	<input type="checkbox" id="santa-fe-tobacco">
-	<label for="santa-fe-tobacco" style="text-align:center">Santa Fe Tobacco</label>
-	<div>
-		<h2>Santa Fe Tobacco</h2>
-		<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
-		<p><strong>Location:</strong> Bottom of Box</p>
-		<p><strong>First Three Numbers:</strong> Julian Date manufactured</p>
-		<p><strong>Next Two Number:</strong> Year manufactured</p>
-		<p><strong>Example:</strong> 0691744 = March 2017</p>
+			<!-- TODO -->
+		</div>
 
-		<table class="preset month">
-			<thead>
-				<tr>
-					<th>Month</th>
-					<th>Julian Date Range</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Jan</td>
-					<td>001 - 031</td>
-				</tr>
-				<tr>
-					<td>Feb</td>
-					<td>032 - 059</td>
-				</tr>
-				<tr>
-					<td>Mar</td>
-					<td>060 - 090</td>
-				</tr>
-				<tr>
-					<td>Apr</td>
-					<td>091 - 120</td>
-				</tr>
-				<tr>
-					<td>May</td>
-					<td>121 - 151</td>
-				</tr>
-				<tr>
-					<td>Jun</td>
-					<td>152 - 181</td>
-				</tr>
-				<tr>
-					<td>Jul</td>
-					<td>182 - 212</td>
-				</tr>
-				<tr>
-					<td>Aug</td>
-					<td>213 - 243</td>
-				</tr>
-				<tr>
-					<td>Sep</td>
-					<td>244 - 273</td>
-				</tr>
-				<tr>
-					<td>Oct</td>
-					<td>274 - 304</td>
-				</tr>
-				<tr>
-					<td>Nov</td>
-					<td>305 - 334</td>
-				</tr>
-				<tr>
-					<td>Dec</td>
-					<td>335 - 365</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+		<input type="checkbox" id="liggett-embosed">
+		<label for="liggett-embosed" style="text-align:center">Liggett (Embosed Codes)</label>
+		<div>
+			<h2>Liggett (Embosed Codes)</h2>
+			<mark class="inline-block">Epires 12 Months After Manufactured Date Code</mark>
+			<p><strong>Location:</strong> Bottom of Box</p>
+			<p><strong>First Character:</strong> Month</p>
+			<p><strong>Second Character:</strong> Year</p>
+			<p><strong>Example:</strong> B7C = February 2017</p>
 
-	<input type="checkbox" id="lorillard" aria-hidden="true">
-	<label style="text-align:center" for="lorillard" aria-hidden="true">Lorillard</label>
-	<div>
-		<h2>Lorillard</h2>
-		<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
-		<p><strong>Location:</strong> Bottom of Box</p>
-		<p><strong>First character:</strong> Year</p>
-		<p><strong>Second character:</strong> Month</p>
-		<p><strong>Example:</strong> 7C1054019 = March 2017</p>
+			<!-- TODO -->
+		</div>
 
-		<table class="preset month">
-			<thead>
-				<tr>
-					<th>Month</th>
-					<th>Code</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Jan</td>
-					<td>B</td>
-				</tr>
-				<tr>
-					<td>Feb</td>
-					<td>L</td>
-				</tr>
-				<tr>
-					<td>Mar</td>
-					<td>A</td>
-				</tr>
-				<tr>
-					<td>Apr</td>
-					<td>C</td>
-				</tr>
-				<tr>
-					<td>May</td>
-					<td>K</td>
-				</tr>
-				<tr>
-					<td>Jun</td>
-					<td>O</td>
-				</tr>
-				<tr>
-					<td>Jul</td>
-					<td>R</td>
-				</tr>
-				<tr>
-					<td>Aug</td>
-					<td>W</td>
-				</tr>
-				<tr>
-					<td>Sep</td>
-					<td>H</td>
-				</tr>
-				<tr>
-					<td>Oct</td>
-					<td>I</td>
-				</tr>
-				<tr>
-					<td>Nov</td>
-					<td>T</td>
-				</tr>
-				<tr>
-					<td>Dec</td>
-					<td>E</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+		<input type="checkbox" id="jt-intl-usa">
+		<label for="jt-intl-usa" style="text-align:center">JT International USA</label>
+		<div>
+			<h2>JT International USA</h2>
+			<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
+			<p><strong>Location:</strong> Bottom of Box</p>
 
-	<input type="checkbox" id="commonwealth" aria-hidden="true">
-	<label style="text-align:center" for="commonwealth" aria-hidden="true">Commonwealth</label>
-	<div>
-		<h2>Commonwealth</h2>
-		<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
-		<p><strong>Location:</strong> Bottom of Box</p>
-		<p><strong>First character:</strong> Year</p>
-		<p><strong>Second character:</strong> Month</p>
-		<p><strong>Next Two Characters:</strong> Calendar Date</p>
-		<p><strong>Example:</strong> 7C22XOX1530 = March 22, 2017</p>
+			<!-- TODO -->
+		</div>
+	</div> <!-- tabs stacked -->
+</div>
 
-		<table class="preset month">
-			<thead>
-				<tr>
-					<th>Month</th>
-					<th>Code</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Jan</td>
-					<td>A</td>
-				</tr>
-				<tr>
-					<td>Feb</td>
-					<td>B</td>
-				</tr>
-				<tr>
-					<td>Mar</td>
-					<td>C</td>
-				</tr>
-				<tr>
-					<td>Apr</td>
-					<td>D</td>
-				</tr>
-				<tr>
-					<td>May</td>
-					<td>E</td>
-				</tr>
-				<tr>
-					<td>Jun</td>
-					<td>F</td>
-				</tr>
-				<tr>
-					<td>Jul</td>
-					<td>G</td>
-				</tr>
-				<tr>
-					<td>Aug</td>
-					<td>H</td>
-				</tr>
-				<tr>
-					<td>Sep</td>
-					<td>I</td>
-				</tr>
-				<tr>
-					<td>Oct</td>
-					<td>J</td>
-				</tr>
-				<tr>
-					<td>Nov</td>
-					<td>K</td>
-				</tr>
-				<tr>
-					<td>Dec</td>
-					<td>L</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-
-	<input type="checkbox" id="liggett-printed">
-	<label for="liggett-printed" style="text-align:center">Liggett (Printed Codes)</label>
-	<div>
-		<h2>Liggett (Printed Codes)</h2>
-		<mark class="inline-block">Epires 12 Months After Manufactured Date Code</mark>
-		<p><strong>Location:</strong> Bottom of Box</p>
-		<p><strong>Second and Third Digits:</strong> Year</p>
-		<p><strong>Next Two Digits:</strong> Week</p>
-		<p><strong>Example:</strong> W1708010222 = February 2017</p>
-
-		<!-- TODO -->
-	</div>
-
-	<input type="checkbox" id="liggett-embosed">
-	<label for="liggett-embosed" style="text-align:center">Liggett (Embosed Codes)</label>
-	<div>
-		<h2>Liggett (Embosed Codes)</h2>
-		<mark class="inline-block">Epires 12 Months After Manufactured Date Code</mark>
-		<p><strong>Location:</strong> Bottom of Box</p>
-		<p><strong>First Character:</strong> Month</p>
-		<p><strong>Second Character:</strong> Year</p>
-		<p><strong>Example:</strong> B7C = February 2017</p>
-
-		<!-- TODO -->
-	</div>
-
-	<input type="checkbox" id="jt-intl-usa">
-	<label for="jt-intl-usa" style="text-align:center">JT International USA</label>
-	<div>
-		<h2>JT International USA</h2>
-		<mark class="inline-block">Epires 18 Months After Manufactured Date Code</mark>
-		<p><strong>Location:</strong> Bottom of Box</p>
-
-		<!-- TODO -->
-	</div>
-</div> <!-- tabs stacked -->
+<script id="monthTables" type="x-template">
+	<table class="preset month">
+		<thead>
+			<tr>
+				<th>Month</th>
+				<th>Code</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Jan</td>
+				<td class="jan"></td>
+			</tr>
+			<tr>
+				<td>Feb</td>
+				<td class="feb"></td>
+			</tr>
+			<tr>
+				<td>Mar</td>
+				<td class="mar"></td>
+			</tr>
+			<tr>
+				<td>Apr</td>
+				<td class="apr"></td>
+			</tr>
+			<tr>
+				<td>May</td>
+				<td class="may"></td>
+			</tr>
+			<tr>
+				<td>Jun</td>
+				<td class="jun"></td>
+			</tr>
+			<tr>
+				<td>Jul</td>
+				<td class="jul"></td>
+			</tr>
+			<tr>
+				<td>Aug</td>
+				<td class="aug"></td>
+			</tr>
+			<tr>
+				<td>Sep</td>
+				<td class="sep"></td>
+			</tr>
+			<tr>
+				<td>Oct</td>
+				<td class="oct"></td>
+			</tr>
+			<tr>
+				<td>Nov</td>
+				<td class="nov"></td>
+			</tr>
+			<tr>
+				<td>Dec</td>
+				<td class="dec"></td>
+			</tr>
+		</tbody>
+	</table>
+</script>
